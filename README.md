@@ -21,7 +21,7 @@ plasmaとi3をインストールする
 ## メモ
 - plasma settingsのsplash screenはNoneにする ```systemsettings```
 - /usr/share/xsessions 上の使わないセッションはbackupディレクトリでも作りその中に移動させておくと、SDDM上で表示されなくなる
-  例：
+例：
 ```.
 ├── backup
 │   ├── i3.desktop
