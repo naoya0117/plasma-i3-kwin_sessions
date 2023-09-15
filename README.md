@@ -1,5 +1,9 @@
 # plasma-i3_mysessions
 - plasma-i3とplasma-kwin両方のセッションをデスクトップマネージャに表示させる
+  plasma-i3
+  ![image](https://github.com/naoya0117/plasma-i3_mysessions/assets/81454816/9aa4ee4a-b486-4759-a2a1-2c1fc097c3c5)
+  
+
 - plasma-i3セッションではplasmaセッション上でi3を操作するため、特有のウィンドウルールが必要である。
   ~/.coonfig/i3 への設定ファイルは
   [https://naoya0117/myi3settings/i3/config](https://github.com/naoya0117/myi3settings/blob/main/i3/config)
