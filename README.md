@@ -42,7 +42,18 @@ plasmaとi3をインストールする
 - kwin-sessionとi3-session間で環境を共有するためstartup-applicationは~/.config/i3/.configファイルではなくxdg-autostartを使用すべき。
 - i3-sessionでは、各アプリケーションにおいてauthorization-errorが起こることがある。(vscodeなど)この場合、```path/to/application --password-store kwallet```としたものを/usr/local/binに保存しておくと良い。
   /usr/local/binの優先度を上げておく必要あり。)
+例: (/usr/local/binの優先度を上げる)
 ```
-vim .bashrc (or .zshrc ...)
+$ vim .bashrc
 export PATH=/usr/share/bin:$PATH
 ```
+例:(vscodeの場合)
+```
+$ cd /usr/local/bin
+$ touch code && chmod a+x ./code
+$ vim ./code
+
+#!/bin/bash
+/usr/bin/code --password-store kwallet
+```
+
