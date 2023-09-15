@@ -1,6 +1,6 @@
 # plasma-i3_mysessions
 ## 手順
-- https://www.github.com/naoya0117/i3-mysettings
+- https://www.github.com/naoya0117/myi3settings より、必要なファイルを$HOME/.config ディレクトリ直下に配置する
 ## メモ
 - plasma settingsのsplash screenはNoneにしておくこと
 - kwin-sessionとi3-session間で環境を共有するためstartup-applicationは~/.config/i3/.configファイルではなくxdg-autostartを使用すべき。
