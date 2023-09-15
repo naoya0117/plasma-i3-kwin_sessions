@@ -1,4 +1,4 @@
-# plasma-i3_mysessions
+# plasma-i3-kwin-sessions
 - plasma-i3とplasma-kwin両方のセッションをデスクトップマネージャに表示させる
   
   plasma-i3
