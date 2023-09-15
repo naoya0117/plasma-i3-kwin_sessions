@@ -1,5 +1,11 @@
 # plasma-i3_mysessions
-## 
+- 本環境ではsystemdサービスを使用している。（systemctlコマンド）
+- 事前にsddm、または、同等の処理ができるDMをインストールしておくこと。
+```
+# pacman -S sddm
+# systemctl enable sddm
+```
+## 使い方
 - https://www.github.com/naoya0117/myi3settings より、必要なファイルを$HOME/.config ディレクトリ直下に配置する
 - 必要なパッケージをインストールする
 ```
