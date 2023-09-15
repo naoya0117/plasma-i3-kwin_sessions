@@ -3,6 +3,9 @@
   
   plasma-i3
   ![image](https://github.com/naoya0117/plasma-i3_mysessions/assets/81454816/9aa4ee4a-b486-4759-a2a1-2c1fc097c3c5)
+  plasma-kwin
+  ![image](https://github.com/naoya0117/plasma-i3_mysessions/assets/81454816/c8602415-f9fa-4f4b-90be-31b6d1e74a65)
+
   
 
 - plasma-i3セッションではplasmaセッション上でi3を操作するため、特有のウィンドウルールが必要である。
