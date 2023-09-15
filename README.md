@@ -1,5 +1,6 @@
 # plasma-i3_mysessions
 - plasma-i3とplasma-kwin両方のセッションをデスクトップマネージャに表示させる
+  
   plasma-i3
   ![image](https://github.com/naoya0117/plasma-i3_mysessions/assets/81454816/9aa4ee4a-b486-4759-a2a1-2c1fc097c3c5)
   
