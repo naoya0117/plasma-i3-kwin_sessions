@@ -22,13 +22,15 @@ plasmaとi3をインストールする
 - plasma settingsのsplash screenはNoneにする ```systemsettings```
 - /usr/share/xsessions 上の使わないセッションはbackupディレクトリでも作りその中に移動させておくと、SDDM上で表示されなくなる
   例：
-```├── backup
+```.
+├── backup
 │   ├── i3.desktop
 │   ├── i3-with-shmlog.desktop
 │   └── plasma.desktop
-├── plasma.desktop
 ├── plasma-i3.desktop
-└── plasma-kwin.desktop```
+└── plasma-kwin.desktop
+
+```
 
 - kwin-sessionとi3-session間で環境を共有するためstartup-applicationは~/.config/i3/.configファイルではなくxdg-autostartを使用すべき。
 - i3-sessionでは、各アプリケーションにおいてauthorization-errorが起こることがある。(vscodeなど)この場合、```path/to/application --password-store kwallet```としたものを/usr/local/binに保存しておくと良い。
