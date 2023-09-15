@@ -24,6 +24,7 @@ plasmaとi3をインストールする
 - 当リポジトリの xsessionsの中身を /usr/share/xsessions にコピーする（ファイル名は自由に変更してよいが、既存のsessionファイルを上書きしないこと。パッケージ更新時に自動で置き換わる可能性あり。）
 
 ## メモ
+- i3のbarとplasmaのpanelがかぶらないようにplasmaのpanelを上に配置した。
 - plasma settingsのsplash screenはNoneにする ```systemsettings```
 - /usr/share/xsessions 上の使わないセッションはbackupディレクトリでも作りその中に移動させておくと、SDDM上で表示されなくなる
 
