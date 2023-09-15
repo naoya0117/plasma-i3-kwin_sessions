@@ -6,18 +6,17 @@
 # pacman -S sddm
 # systemctl enable sddm
 ```
-- https://www.github.com/naoya0117/myi3settings より、必要なファイルを$HOME/.config ディレクトリ直下に配置する
-- 必要なパッケージをインストールする
+plasmaとi3をインストールする
 ```
-# pacman -S plasma i3 i3blocks rofi
+# pacman -S plasma i3 plasma
 ```
--  当リポジトリより、local-bin の中身を/usr/local/bin にコピーし、実行権限を付与する。
+-  リポジトリのlocal-bin の中身を/usr/local/bin にコピーし、実行権限を付与する。
 ```
 # cd /usr/local/bin/
 # chmod a+x ./plasma-i3.sh
 # chmod a+x ./plasma-kwin.sh
 ```
-- 当リポジトリより、 xsessionsの中身を /usr/share/xsessions にコピーする（ファイル名は自由に変更してよいが、既存のsessionファイルを上書きしないこと。パッケージ更新時に自動で置き換わる可能性あり。）
+- 当リポジトリの xsessionsの中身を /usr/share/xsessions にコピーする（ファイル名は自由に変更してよいが、既存のsessionファイルを上書きしないこと。パッケージ更新時に自動で置き換わる可能性あり。）
 
 ## メモ
 - plasma settingsのsplash screenはNoneにしておくこと
