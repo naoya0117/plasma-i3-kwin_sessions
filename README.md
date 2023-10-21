@@ -11,7 +11,7 @@
 - plasma-i3セッションではplasmaセッション上でi3を操作するため、特有のウィンドウルールが必要である。
   ~/.config/i3 への設定ファイルは
 
-  [https://naoya0117/plasma-i3_config/i3/config](https://github.com/naoya0117/plasma-i3_config/blob/main/config)
+  [https://naoya0117/plasma-i3_config](https://github.com/naoya0117/plasma-i3_config)
   または、https://github.com/heckelson/i3-and-kde-plasma を参照すること
 ## 使用方法
 - 本環境ではsystemdサービスを使用している。（systemctlコマンド）
