@@ -1,4 +1,4 @@
-# [plasma-i3-kwin-sessions](https://github.com/naoya0117/plasma-i3-kwin-sessions)
+# [plasma-i3-kwin_sessions](https://github.com/naoya0117/plasma-i3-kwin_sessions)
 - plasma-i3とplasma-kwin両方のセッションをデスクトップマネージャに表示させる
   
   plasma-i3
@@ -69,6 +69,8 @@ $ vim ./code
 
 ## Contact
 
-Repository: [https://github.com/naoya0117/plasma-i3-kwin-sessions](https://github.com/naoya0117/plasma-i3-kwin-sessions)
-GitHub: [https://github.com/naoya0117](https://github.com/naoya0117)
+Repository:  [https://github.com/naoya0117/plasma-i3-kwin_sessions](https://github.com/naoya0117/plasma-i3-kwin_sessions)
+
+GitHub:  [https://github.com/naoya0117](https://github.com/naoya0117)
+
 Blog:[https://naoya0117.com](https://naoya0117.com)
