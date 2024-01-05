@@ -1,4 +1,4 @@
-# plasma-i3-kwin-sessions
+# [plasma-i3-kwin-sessions](https://github.com/naoya0117/plasma-i3-kwin-sessions)
 - plasma-i3とplasma-kwin両方のセッションをデスクトップマネージャに表示させる
   
   plasma-i3
@@ -57,6 +57,7 @@ $ vim .bashrc
 export PATH=/usr/share/bin:$PATH
 ```
 例:(vscodeの場合)
+
 ```
 $ cd /usr/local/bin
 $ touch code && chmod a+x ./code
@@ -66,3 +67,8 @@ $ vim ./code
 /usr/bin/code --password-store kwallet
 ```
 
+## Contact
+
+Repository: [https://github.com/naoya0117/plasma-i3-kwin-sessions](https://github.com/naoya0117/plasma-i3-kwin-sessions)
+GitHub: [https://github.com/naoya0117](https://github.com/naoya0117)
+Blog:[https://naoya0117.com](https://naoya0117.com)
